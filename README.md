@@ -53,12 +53,4 @@ Total wins: 1
 Total losses: 0
 
 Would you like to play another round? (Press 'q' to quit or roll again)
-📋 Requirements
-Java 8 or higher.
-🔧 Dependencies
-No external libraries or dependencies are required for this project.
-💬 Contributing
-Feel free to fork the repository, submit issues, or create pull requests if you'd like to contribute improvements to the game!
 
-📜 License
-This project is open-source and available under the MIT License.
