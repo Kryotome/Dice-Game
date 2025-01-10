@@ -1,26 +1,64 @@
-Dice Game: Roll to Win 12
-Welcome to the Dice Game! In this game, you will roll up to 3 dice in an attempt to achieve a total sum of 12 in order to win. The game keeps track of your wins and losses, and you can keep playing until you choose to quit.
+🎲 Dice Game: Roll to Win 12
+A fun and interactive console-based game where the player rolls dice to achieve a total sum of 12 to win! The game tracks wins and losses and continues until the player decides to quit.
 
-Program Logic
-1. Initialization:
-Upon starting the game, you will receive a welcome message and game instructions.
-The program initializes variables to track the number of wins, losses, and the values of the dice.
-2. Main Game Loop:
-Each round begins by resetting the dice values and their roll statuses to their initial values.
-You can choose to roll 1 to 3 dice. For each die, you will be prompted to choose a die to roll or quit the game by entering 'q'.
-Valid input must be:
-A number between 1 and 3 (indicating which die to roll).
-The die must not have been rolled already.
-The input is checked for validity, and any non-numeric or invalid input is handled gracefully.
-Upon rolling a chosen die, the program generates a random number between 1 and 6 (simulating the roll of a die).
-The chosen die's value is updated and added to the round's total sum.
-The dice values, current sum, and win/loss count are displayed after each roll.
-3. Round Outcome:
-After all dice rolls (or if the player decides to quit):
-If the total sum equals 12, the player wins.
-If the total sum exceeds 12, the player loses.
-Otherwise, the round is considered a tie.
-The win/loss counters are updated accordingly.
-4. End Game:
-If the player opts to quit by entering 'q', the program will display the total number of wins and losses.
-The game ends, and the program concludes.
+💡 Features
+Roll 1 to 3 Dice: The player can roll up to three dice per round.
+Track Wins & Losses: The game tracks the total wins and losses.
+Sum of 12 to Win: The player must roll the dice and reach a sum of exactly 12 to win.
+Quit Option: The player can quit the game anytime by entering 'q'.
+🚀 How to Run
+1. Clone the Repository
+Clone the project to your local machine using the following command:
+
+bash
+Copy code
+git clone https://github.com/yourusername/dice-game.git
+2. Compile the Program
+Navigate to the directory where the game files are located, and compile the program with the following command:
+
+bash
+Copy code
+javac DiceGame.java
+3. Run the Program
+Once the program is compiled, run the game using the java command:
+
+bash
+Copy code
+java DiceGame
+4. Follow the On-Screen Prompts
+The game will prompt you to roll dice or quit the game. You’ll be able to choose which dice to roll, and the game will display the results after each roll.
+
+📖 Example Gameplay
+bash
+Copy code
+Welcome to the Dice Game!
+Try to roll a total sum of 12 to win!
+Type 'q' to quit at any time.
+
+Round 1:
+Enter a die number to roll (1, 2, or 3), or 'q' to quit: 1
+You rolled a 5!
+Current sum: 5
+
+Enter a die number to roll (1, 2, or 3), or 'q' to quit: 2
+You rolled a 3!
+Current sum: 8
+
+Enter a die number to roll (1, 2, or 3), or 'q' to quit: 3
+You rolled a 4!
+Current sum: 12
+
+You won this round!
+Total wins: 1
+Total losses: 0
+
+Would you like to play another round? (Press 'q' to quit or roll again)
+📋 Requirements
+Java 8 or higher.
+🔧 Dependencies
+No external libraries or dependencies are required for this project.
+💬 Contributing
+Feel free to fork the repository, submit issues, or create pull requests if you'd like to contribute improvements to the game!
+
+📜 License
+This project is open-source and available under the MIT License.
